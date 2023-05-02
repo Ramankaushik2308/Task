@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Contact.css" />
+  </head>
+  <body>
+    <!-- contact form start -->
+
+    <!-- form box start -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">enter your details</h1>
+
+      <div class="row">
+        <form action="">
+          <h3 class="title">your details</h3>
+
+          <div class="inputBox">
+            <input type="text" required>
+            <label>name</label>
+          </div>
+
+          <div class="inputBox">
+            <input type="email" required>
+            <label>email</label>
+          </div>
+
+          <div class="inputBox">
+            <input type="number" required>
+            <label>number</label>
+          </div>
+
+          <input type="submit" class="btn" value="send message" onclick="send()"/>
+        </form>
+      </div>
+    </section>
+
+    <!--form box end-->
+    <!-- contact form end -->
+
+    <script>
+    function send(){
+        alert("Thanks for Contacting");
+        window.location="index.html";
+    }
+    </script>
+  </body>
+</html>
